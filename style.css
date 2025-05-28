@@ -1,20 +1,9 @@
+/* General style tweaks */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
+  scroll-behavior: smooth;
 }
 
-header, footer {
-  background-color: #333;
-  color: white;
-  padding: 1rem;
-  text-align: center;
-}
-
-main {
-  padding: 2rem;
-  text-align: center;
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
 }
