@@ -38,3 +38,8 @@ a.btn:hover {
   object-fit: cover;
   height: 200px;
 }
+
+.project-img {
+  height: 250px;
+  object-fit: cover;
+}
