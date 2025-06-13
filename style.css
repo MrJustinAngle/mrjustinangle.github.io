@@ -1,31 +1,40 @@
-/* Light Theme (default) */
-:root {
-  --bg: white;
-  --text: #222;
-  --accent: #0d6efd;
+body {
+  background-color: #121212;
+  color: #f1f1f1;
 }
 
-body {
-  background-color: var(--bg);
-  color: var(--text);
-  scroll-behavior: smooth;
-  transition: background-color 0.3s, color 0.3s;
+a,
+a:hover {
+  color: #66b2ff;
+}
+
+.bg-light {
+  background-color: #1e1e1e !important;
 }
 
 .card {
-  background-color: var(--bg);
-  color: var(--text);
-  border: 1px solid #ccc;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #2e2e2e;
 }
 
-a.btn {
-  border-color: var(--accent);
-  color: var(--accent);
+.btn-outline-primary {
+  color: #66b2ff;
+  border-color: #66b2ff;
 }
 
-a.btn:hover {
-  background-color: var(--accent);
-  color: white;
+.btn-outline-primary:hover {
+  background-color: #66b2ff;
+  color: #121212;
+}
+
+.navbar {
+  background-color: #1c1c1c !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #f1f1f1 !important;
 }
 
 .card-img-top {
